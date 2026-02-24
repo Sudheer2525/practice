@@ -1,0 +1,19 @@
+table{
+    width: 75%;
+    border-color: red;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color: pink;
+
+}
+tr:nth-child(even){
+    background-color: yellowgreen;
+}
+th{
+    color: aliceblue;
+}
+.th,td:hover{
+   background-color: aquamarine;
+}

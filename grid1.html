@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid1</title>
+        <style>
+            .parent{
+                height: 100vh;
+                display: grid;
+                grid-template-rows: 15% 15% 15% 20%;
+                grid-template-columns: 15% 15% 15% 20%;
+                text-align: left;
+                color: white;
+                gap: 10px;
+            }
+            .Header{
+                background-color: red;
+                grid-column: 1/5;
+                grid-row: 1/2;
+
+            }
+            .Smallbox1{
+                background-color: red;
+                grid-column: 1/2;
+                grid-row: 2/3;
+            }
+             .smallbox2{
+                background-color: red;
+                grid-column: 2/3;
+                grid-row: 2/3;
+            }
+             .smallbox3{
+                background-color: red;
+                grid-column: 3/4;
+                grid-row: 2/3;
+            }
+             .sidebar{
+                background-color: red;
+                grid-column: 4/5;
+                grid-row: 2/4;
+            }
+             .maincontent{
+                background-color: red;
+                grid-column: 1/4;
+                grid-row: 3/4;
+            }
+             .footer{
+                background-color: red;
+                grid-column: 1/5;
+                grid-row: 4/5;
+            }
+        </style>
+    </head>
+    <body>
+        <dvi class="parent">
+            <div class="Header">Header</div>
+            <div class="Smallbox1">Small box1</div>
+            <div class="smallbox2">small box2</div>
+            <div class="smallbox3"> samll box3</div>
+            <div class="sidebar">sidebar</div>
+            <div class="maincontent">Main content</div>
+            <div class="footer">footer</div>
+        </dvi>
+    </body>
+</html>
