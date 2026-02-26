@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>flex3</title>
+        <style>
+            *{
+                margin: 1px;
+                border: 1px solid black;
+                box-sizing: border-box;
+            }
+            .parent{
+                display: flex;
+                height: 100vh; 
+                gap: 10px;
+            }
+            .c1{
+                background-color: rebeccapurple;
+                flex: 1;
+                display: flex;
+                gap: 10px;
+                flex-direction: column;
+                padding: 10px;
+            }
+            .c2{
+                background-color: blue;
+                flex: 1;
+                display: flex;
+                gap: 10px;
+                padding: 10px;
+            }
+            .sc1{
+                background-color: brown;
+                   flex: 1;
+            }
+            .sc2{
+                background-color: aqua;
+                   flex: 1;
+            }
+            .sc3{
+                background-color: chartreuse;
+                   flex: 1;
+            }
+            .sc4{
+                background-color: chocolate;
+                   flex: 1;
+            }
+            .sc5{
+                background-color: darkturquoise;
+                   flex: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="c1">
+                <div class="sc1">1</div>
+                <div class="sc2">2</div>
+                <div class="sc3">3</div>
+            </div>
+            <div class="c2">
+                <div class="sc4">4</div>
+                <div class="sc5">5</div>
+            </div>
+        </div>
+    </body>
+</html>
